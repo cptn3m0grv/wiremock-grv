@@ -10,6 +10,7 @@ class WiremockClient extends WireMockRestClient {
         this.#wiremockBaseUrl = _wireMockBaseUrl;
     }
 
+    // This method is going to wait for the wiremock server to be up and running
     async waitForIt() {
         const maxTime = 1 * 60 * 1000;
         const start = Date.now();
