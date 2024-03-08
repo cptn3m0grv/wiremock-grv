@@ -1,0 +1,30 @@
+{
+    "name": "wiremock-grv",
+    "version": "1.0.0",
+    "description": "Wiremock client npm package",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cptn3m0grv/wiremock-grv.git"
+    },
+    "keywords": [
+        "npm",
+        "wiremock",
+        "rest",
+        "client"
+    ],
+    "author": "Gaurav Goyal",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/cptn3m0grv/wiremock-grv/issues"
+    },
+    "homepage": "https://github.com/cptn3m0grv/wiremock-grv#readme",
+    "dependencies": {
+        "axios": "^1.6.7",
+        "wiremock-rest-client": "^1.10.0"
+    }
+}
